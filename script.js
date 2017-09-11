@@ -1,0 +1,11 @@
+$(document).ready(function(){
+	$('.tooltip').hide();
+	$(function(){
+		$('.reting_namber').hover(function(){
+			$('.tooltip').show();
+		},
+		function(){
+			$('.tooltip').hide();
+		});
+	});	
+});

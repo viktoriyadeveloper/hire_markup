@@ -1,0 +1,146 @@
+body{
+	/*font-family: "Segoe UI", sans-serif;*/
+	font: Arial;
+	font-size: 100%;
+	margin: 0;
+	outline: none;
+}
+.center {
+	background: #f6f6f6;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.head_block {
+	width: 960px;
+	margin: auto;
+	display: flex;
+	padding: 23px;
+	background: #fff;
+}
+.head_block_person {
+	flex-basis: 69%;
+	display: flex;
+	border-right: 1px solid #eaeaea;
+}
+.head_block_person-img {
+	margin-right: 20px;
+}
+.head_block_person-text {
+	flex-basis: 60%;
+}
+.title {
+	font-size: 24px;
+	margin-bottom: 15px;
+	display: block;
+}
+.info {
+	font-size: 13px;
+	color: #888;
+	margin-bottom: 15px;
+}
+.info a {
+	margin-right: 20px;
+}
+.text {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+.more {
+	font-size: 12px;
+	color: #888;
+}
+.more a {
+	margin-right: 20px;
+}
+a {
+	color: #2a599a;
+	text-decoration: none;
+}
+a:hover {
+	color: #6da630;
+}
+.head_block_rating {
+	flex-basis: 30%;
+	padding: 0 40px;
+}
+.reting {
+	display: flex;
+	margin-bottom: 60px;
+	justify-content: center;
+}
+.reting_namber {
+	font-size: 36px;
+	color: #90b866;
+	font-weight: 600;
+	cursor: pointer;
+}
+.reting_info {
+	margin-left: 10px;
+}
+.reting_info-source {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 13px;
+	color: #333;
+}
+.yuristRate {
+	background: url(../images/empty_rate.png);
+	width: 109px;
+	height: 8px;
+	background-repeat: repeat-x;
+}
+.yuristRate div {
+	background: url(../images/full-rate.png);
+	width: 0;
+	height: 100%;
+	background-repeat: repeat-x;
+}
+.reting_btn {
+	display: block;
+	background: linear-gradient(to top, #7fb04b, #96c664);
+	width: 180px;
+	text-align: center;
+	color: #fff;
+	padding: 10px 0;
+	border: 2px solid #7fb04b;
+	border-radius: 3px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+.reting_btn:hover {
+	background: #96c664;
+	color: #000;
+}
+.reting_more {
+	font-size: 13px;
+	color: #888;
+	text-align: center;
+}
+.tooltip {
+	background: url(../images/tooltip.png);
+	background-repeat: norepeat;
+	width: 235px;
+	height: 143px;
+	position: absolute;
+	margin-top: 45px;
+	margin-right: 130px;
+	background-size: 100%;
+	font-size: 14px;
+	color: #333333;
+}
+.tooltip_title {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 10px 10px 15px;
+	background: #f4f8ef;
+	margin: 7px 1px 0px 1px;
+}
+.tooltip_title-sorting span {
+	color: #90b866;
+}
+.tooltip_title-rating {
+	color: #90b866;
+}
+.tooltip_text {
+	padding: 10px 10px 10px 15px;
+}
